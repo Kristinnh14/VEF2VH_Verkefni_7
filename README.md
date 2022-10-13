@@ -1,1 +1,1 @@
-# VEF2VH_Verkefni_7
+# VEF2VH Lokaverkefni (Verkefni 7)
