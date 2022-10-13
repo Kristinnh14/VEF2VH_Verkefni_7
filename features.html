@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arena Deildin">
+    <meta name="author" content="KH">
+    <title>Arena Deildin | Keppnin</title>
+    <!--link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"-->
+    <link href="http://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
+    <link rel="stylesheet" href="css/1-base.css">
+    <link rel="stylesheet" href="css/2-grid.css">
+    <link rel="stylesheet" href="css/3-iconfont.css">
+    <link rel="stylesheet" href="css/4-topmenu.css">
+    <link rel="stylesheet" href="css/5-custom.css">
+    <!--Allar stílsíðurnar eru síðan þjappaðar í eina stílsíðu -->
+    <!--link rel="stylesheet" href="css/styles.css"-->
+
+    <link rel="icon" type="image/svg" href="images/RLIS.png">
+</head>
+<body id="top">
+  <header>
+    <div class="topnav" id="myTopnav">
+        <div class="centered">
+          <img src="images/RLIS.png" class="logo">
+          <a href="index.html"> Heim</a>
+          <a href="features.html"> Keppnin</a>
+          <a href="about.html"> Um okkur</a>
+          <a href="contact.html"> Hafa Samband</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i>&equiv;</i>
+          </a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  <main>
+    <section>
+      <div class="graybg centre titill">
+        <h1>Keppnin</h1>
+      </div>
+    </section>
+    <section>
+        <div class="col-3 teams">
+            <div class="teambg col-2">
+                <div>
+                    <img src="images/logo/BB.png" class="teamlogo">
+                </div>
+                <div class="graybg roster">
+                    <ul>
+                        <li>EmilVald</li>
+                        <li>Paxole</li>
+                        <li>Smushball</li>
+                        <li>Krilli</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teambg col-2">
+                <div>
+                    <img src="images/logo/LAVA.png" class="teamlogo">
+                </div>
+                <div class="graybg roster">
+                    <ul>
+                        <li>BNZ</li>
+                        <li>Cynical</li>
+                        <li>Vaddimah</li>
+                        <li>Klobbi</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teambg col-2">
+                <div>
+                    <img src="images/logo/354.png" class="teamlogo">
+                </div>
+                <div class="graybg roster">
+                    <ul>
+                        <li>Jdn.</li>
+                        <li>Cereal</li>
+                        <li>Stormur</li>
+                        <li>Bjarnifrændi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 teams">
+            <div class="teambg col-2">
+                <div>
+                    <img src="images/logo/BS.png" class="teamlogo">
+                </div>
+                <div class="graybg roster">
+                    <ul>
+                        <li>sizophrenic</li>
+                        <li>Handygoon</li>
+                        <li>Vano</li>
+                        <li>Alfarinn</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teambg col-2">
+                <div>
+                    <img src="images/logo/Thor.png" class="teamlogo">
+                </div>
+                <div class="graybg roster">
+                    <ul>
+                        <li>steb</li>
+                        <li>ousic</li>
+                        <li>Kraken</li>
+                        <li>Hemmigumm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="teambg col-2">
+                <div>
+                    <img src="images/logo/MB.png" class="teamlogo">
+                </div>
+                <div class="graybg roster">
+                    <ul>
+                        <li>Bobbi</li>
+                        <li>Haxfaðir</li>
+                        <li>Snazzz</li>
+                        <li>toni chris</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <img src="images/Finals.png">
+    </section>
+    <section class="container col-1 graybg bil teambg tafla" id="letur">
+        <div class="schedule">
+            <h2 class="centre">Tímatafla leikja</h2>
+          <table>
+            <thead>
+                <tr> 
+                    <th scope="col">Lið 1</th>
+                    <th scope="col">Lið 2</th>
+                    <th scope="col">KL</th>
+                    <th scope="col">Dagur</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Þór Akureyri</td>
+                    <td>Breaking Sad</td>
+                    <td>19:00</td>
+                    <td>Föstudagur</td>
+                </tr>
+                <tr>
+                    <td scope="row">354 Esports</td>
+                    <td>Midnight Bulls</td>
+                    <td>20:00</td>
+                    <td>Föstudagur</td>
+                </tr>
+                <tr>
+                    <td scope="row">Breiðablik</td>
+                    <td>TBD</td>
+                    <td>18:00</td>
+                    <td>Laugardagur</td>
+                </tr>
+                <tr>
+                  <td scope="row">LAVA Esports</td>
+                  <td>TBD</td>
+                  <td>19:00</td>
+                  <td>Laugardagur</td>
+              </tr>
+              <tr>
+                  <td scope="row">TBD</td>
+                  <td>TBD</td>
+                  <td>18:00</td>
+                  <td>Sunnudagur</td>
+              </tr>
+              <tr>
+                  <td scope="row">TBD</td>
+                  <td>TBD</td>
+                  <td>19:00</td>
+                  <td>Sunnudagur</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </section>
+    <section class="bgimg">
+      <div class="container col-4">
+        <div>
+          <img src="images/elko-logos-idAtznfCiT.png" class="sponsor">
+        </div>
+        <div>
+          <img src="images/Islandsbanki_White.png" class="sponsor">
+        </div>
+        <div>
+          <img src="images/Arena_Merki.png" class="sponsor">
+        </div>
+        <div>
+          <img src="images/ntvlogo2.png" class="sponsor">
+        </div>
+      </div>
+    </section>
+  </main>
+    <div class="footer">
+    <footer class="container centre">
+        <div class="texti col-3">
+        <div>
+            <img src="images/RLIS.png" class="logo2">
+        </div>
+        <ul class="socials">
+            <li><a href="https://www.instagram.com/rocketleagueiceland/" target=”_blank”><span class="icon-instagram"></span> Instagram</a></li>
+            <li><a href="https://www.facebook.com/RocketLeagueIceland" target=”_blank”><span class="icon-facebook2"></span> Facebook</a></li>
+            <li><a href="https://twitter.com/RLIceland" target=”_blank”><span class="icon-twitter"></span> Twitter</a></li>
+            <li><a href="https://www.twitch.tv/rocketleagueiceland" target=”_blank”><span class="icon-twitch"></span> Twitch</a></li>
+        </ul>
+        <dl>
+            <dt>Nafn:</dt>
+            <dd>Rocket League Ísland</dd>
+            <dt>Tölvupóstur:</dt>
+            <dd>Rocketleagueiceland@gmail.com</dd>
+            <dt>Heimilisfang:</dt>
+            <dd>Smáratorg 3, 201 Kópavogur</dd>
+        </dl>
+        </div>
+        <p>&copy; 2022 KH</p>
+    <p class="fela"><a href=#top class="button">Efst á síðu</a></p>
+    </footer>
+    </div>
+    </body>
+    </html>
