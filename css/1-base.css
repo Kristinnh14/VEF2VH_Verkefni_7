@@ -21,6 +21,8 @@ html {
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url('http://fonts.cdnfonts.com/css/lemonmilk');
+
 body {
   margin: 0;
   font-size: 1em;
