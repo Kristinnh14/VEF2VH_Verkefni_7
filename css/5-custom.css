@@ -1,0 +1,281 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #222;
+}
+main{
+    padding-top: 160px;
+}
+.fela{
+    display: none;
+}
+
+.col-2{
+    padding-top: 70px;
+}
+.value h1 {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 1.8em;
+    margin: 0 auto;
+    padding: .4em;
+}
+
+.halli{
+    transform: rotate(5deg);
+    padding-left: 10em;
+    width: 50%;
+    z-index: -2;
+}
+
+.logo{
+    max-width: 80px;
+    float: left;
+    display: block;
+    margin: 10px;
+}
+.logo2{
+    max-width: 40%;
+    margin-left: 2em;
+}
+.teamlogo{
+    max-width: 200px;
+}
+
+.sponsor{
+    max-width: 250px;
+}
+.bil{
+    padding: 0 0 4em 0;
+}
+
+.midja{
+    padding-top: 8em;
+    text-align: center;
+}
+.graybg{
+    color: #FFF;
+}
+
+.titill{
+    padding: 2.5em 0 2.5em 0;
+}
+
+.bgimg{
+    background-image: url('../images/blue_bg.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teambg{
+    background: #1c2e4a;
+    background: linear-gradient(150deg, #1c2e4a 24%, #7a1712 100%); 
+    padding: 1em 0 1em 1em;
+}
+.teams{
+    padding: 1em;
+}
+.roster{
+    float: right;
+    margin: 1.5em 0 0 0;
+}
+.arenalogo{
+    max-width: 550px;
+}
+.about{
+    padding: 2em 0 4em 0;
+}
+.abouttexti{
+    padding-right: 2em;
+}
+.simanumer{
+    font-size: 1.6em;
+    background-color: #222;
+    padding: 0.5em 5em 0.5em 5em;
+    text-align: center;
+}
+.kort{
+    float: right;
+    padding-left: 10em;
+}
+.tafla{
+    max-width: 40em;
+    max-height: 40em;
+    border-radius: 20px;
+    padding-bottom: 2em;
+}
+
+img.a{
+    padding-top: 3em;
+}
+.texti{
+    text-align: left;
+}
+.footer{
+    margin-top: 4em;
+    padding: 2em 2em 1em 2em;
+    background: #1c2e4a;
+    background: linear-gradient(150deg, #1c2e4a 24%, #7a1712 100%); 
+    width: 100%;
+    color: #FFF;
+}
+
+
+
+/* tafla */
+.container2 {
+    margin: 0 auto;
+    width: 50em;
+  }
+td, th{
+    padding: 1em;
+}
+
+table {
+    border-collapse: collapse;
+  }
+td {
+    border-bottom: 1px solid;
+    padding: .9em;
+  }
+th {
+    border-bottom: 1px solid;
+    background-color: #7a1712;
+}
+.schedule {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+tr:nth-child(even) {background: #7a1712}
+tr:nth-child(odd) {background: #1c2e4a}
+
+
+/* Form */
+
+input[type=submit] {
+    width: 100%;
+    background-color: #1c2e4a;
+    color: #fff;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFF;
+  }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #222;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFF;
+  }
+input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #222;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFF;
+  }
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #222;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFF;
+  }
+textarea[type=msg], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #222;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFF;
+  }
+
+.form{
+    padding-top: 4em;
+    border-radius: 5px;
+    background: #1c2e4a;
+    background: linear-gradient(150deg, #1c2e4a 24%, #7a1712 100%); 
+    color: #FFF;
+    padding: 20px;
+}
+input[type=submit]:hover {
+    background-color: #142035;
+  }
+.minnkaform{
+    max-width: 60%;
+    padding-top: 3em;
+}
+
+  /* File links */
+ul.file{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+a {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-decoration: none;
+    }
+a:hover {
+    color: rgb(138, 138, 138);
+    }
+a[href$=".pdf"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/pdf.png");
+    }
+a[href$=".doc"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/doc.png");
+    }
+a[href$=".jpg"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/image.png");
+    }
+a[href$=".mp3"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/audio.png");
+    }
+a[href$=".mp4"] {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/video.png");
+    }
+
+
+    @media screen and (max-width: 450px){
+        .texti{
+            padding-left: 0.7em;
+        }
+        .socials{
+            padding-left: 5em;
+        }
+        .logo2{
+            margin-left: 5em;
+        }
+        .arenalogo{
+            max-width: 400px;
+        }
+        .abouttexti{
+            padding: 1em;
+        }
+        .teambg{
+            padding-left: 7em;
+        }
+    }
